@@ -11,3 +11,5 @@ This has been reported in the support forums many times, but users are generally
 Google really doesn't seem to like the Organization data being encapsulated within the WebPage data. This plugin fixes that by taking the details from the Yoast settings and feeding them back into the output as a separate Organization piece outside the WebPage block. 
 
 Essentially, it puts back the "Little blobs" that this update removed.
+
+[Blog Post Here](https://www.robertwent.com/blog/fixing-yoast-broken-organization-and-logo-schema/)
