@@ -4,7 +4,7 @@ In the Yoast 11.0.0 update, schema implementation was changed.
 
 [Changelog Here](https://yoast.com/yoast-seo-11-0/)
 
-Unfortunately this had a negative effect on many sites where organization data started to be ignored and the logo enhancement section of Google Search Console showed a swift decline in valid pages until it disappeared all together.
+Unfortunately, this had a negative effect on many sites where organization data started to be ignored and the logo enhancement section of Google Search Console showed a swift decline in valid pages until it disappeared altogether.
 
 This has been reported in the support forums many times, but users are generally told that it is not an issue with the plugin and they should check their logo file against Google's guidelines.
 
