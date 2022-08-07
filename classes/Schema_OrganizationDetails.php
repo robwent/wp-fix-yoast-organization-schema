@@ -40,7 +40,7 @@ class Schema_OrganizationDetails extends Abstract_Schema_Piece {
 				$social_links[] = 'https://twitter.com/' . $wpseo_social['twitter_site'];
 			}
 			if ( array_key_exists( 'facebook_site', $wpseo_social ) && $wpseo_social['facebook_site'] ) {
-				$social_links[] = '"' . $wpseo_social['facebook_site'] . '"';
+				$social_links[] = $wpseo_social['facebook_site'];
 			}
 			if ( array_key_exists( 'other_social_urls', $wpseo_social ) && ! empty( $wpseo_social['other_social_urls'] ) ) {
 				foreach ( $wpseo_social['other_social_urls'] as $url ) {
@@ -52,7 +52,7 @@ class Schema_OrganizationDetails extends Abstract_Schema_Piece {
 		$data = array(
 			'@type' => 'Organization',
 			'@id'   => $this->context->canonical . '#organization_details',
-			'url'   => $this->context->canonical,
+			'url'   => $this->context->site_url,
 			'name'  => $wpseo_titles['company_name'],
 			'logo'  => $wpseo_titles['company_logo']
 		);
