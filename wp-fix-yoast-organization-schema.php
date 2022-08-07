@@ -3,7 +3,7 @@
  * Plugin Name:       Fix Yoast Organization Schema
  * Plugin URI:        https://github.com/robwent/wp-fix-yoast-organization-schema
  * Description:       Adds additional Organization schema to Yoast output.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Robert Went
  * Author URI:        https://www.robertwent.com
  * License:           GPL-2.0+
